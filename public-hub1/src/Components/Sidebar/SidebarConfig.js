@@ -10,11 +10,11 @@ import {
   AiOutlineMessage,
   AiOutlinePlusCircle,
   AiOutlineSearch,
-  AiOutlineUser,
+ 
   
 } from "react-icons/ai";
 import { RiVideoFill, RiVideoLine } from "react-icons/ri";
-// import {  } from "react-icons/cg";
+ import { CgProfile } from "react-icons/cg";
 
 
 export const mainu = [
@@ -43,20 +43,20 @@ export const mainu = [
     icon: <AiOutlineMessage className="text-2xl mr-5"></AiOutlineMessage>,
     activeIcon: <AiFillMessage className="text-2xl mr-5"></AiFillMessage>,
   },
-  {
-    title: "Notification",
-    icon: <AiOutlineHeart className="text-2xl mr-5"></AiOutlineHeart>,
-    activeIcon: <AiFillHeart className="text-2xl mr-5"></AiFillHeart>,
-  },
-  {
-    title: "Profile",
-    icons: <AiOutlineUser className="text-2xl mr-5"></AiOutlineUser>,
-    activeIcon: <AiOutlineUser className="text-2xl mr-5"></AiOutlineUser>,
-  },
-  {
+ {
     title: "Create",
     icon: <AiOutlinePlusCircle className="text-2xl mr-5"></AiOutlinePlusCircle>,
     activeIcon: <AiFillPlusCircle className="text-2xl mr-5"></AiFillPlusCircle>,
-  },
+  },  
   
+   {
+    title: "Notification",
+    icon: <AiOutlineHeart className="text-2xl mr-5"></AiOutlineHeart>,
+    iactiveIcon: <AiFillHeart className="text-2xl mr-5"></AiFillHeart>,
+  },
+  {
+    title: "Profile",
+    icons: <CgProfile className="text-2xl mr-5"></CgProfile>,
+    activeIcon: <CgProfile className="text-2xl mr-5"></CgProfile>,
+  },
 ];
